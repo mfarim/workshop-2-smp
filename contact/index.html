@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Beranda</a>
+      <a href="/about">Tentang</a>
+      <a href="/contact">Kontak</a>
+    </nav>
+
+    <main>
+      <section id="contact-intro">
+        <h1>Kontak</h1>
+        <p>Hubungi saya di:</p>
+        <ul id="contact-links">
+          <li><a href="https://t.me/MFM_MuhammadFariMadyan">@mfarimadyan</a></li>
+          <li><a href="mailto:myname@example.com">myname@example.com</a></li>
+          <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+        </ul>
+      </section>
+
+      <form id="contact-form" class="">
+        <fieldset>
+          <legend>Info Anda</legend>
+          <div>
+            <label for="person-name">Nama:</label>
+            <input
+              type="text"
+              name="person-name"
+              id="person-name"
+              placeholder="Elon Musk"
+            />
+          </div>
+          <div>
+            <label for="person-email">Email:</label>
+            <input
+              type="email"
+              name="person-email"
+              id="person-email"
+              placeholder="elon@spacex.com"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Pertanyaan Anda</legend>
+          <div>
+            <label for="message-subject">Subjek:</label>
+            <input
+              type="text"
+              name="message-subject"
+              id="message-subject"
+              placeholder="Judul subjek"
+            />
+          </div>
+          <div>
+            <label for="message-content">Pesan:</label>
+            <textarea
+              name="message-content"
+              id="message-content"
+              cols="30"
+              rows="10"
+              placeholder="Masukkan pesan Anda di sini..."
+            ></textarea>
+          </div>
+        </fieldset>
+        <input type="submit" value="Kirim pesan" />
+      </form>
+    </main>
+  </body>
+</html>
