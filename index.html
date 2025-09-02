@@ -3,51 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M Fari Madyan</title>
-    <meta name="description" content="Ini adalah website pribadi Fari" />
+    <title>Biodata Diri - M Fari Madyan</title>
+    <meta name="description" content="Biodata diri M Fari Madyan" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <nav>
-      <a href="index.html">Beranda</a>
-      <a href="about/index.html">Tentang</a>
-      <a href="contact/index.html">Kontak</a>
+  <body class="bg-gray-100 min-h-screen flex flex-col">
+    <nav class="bg-blue-600 text-white p-4 shadow-md">
+      <div class="container mx-auto flex justify-center space-x-6">
+        <a href="index.html" class="hover:text-blue-200 transition">Beranda</a>
+        <a href="about/index.html" class="hover:text-blue-200 transition">Tentang</a>
+        <a href="contact/index.html" class="hover:text-blue-200 transition">Kontak</a>
+      </div>
     </nav>
 
-    <main>
-      <header>
-        <h1>Halo! Saya Fari</h1>
-        <p>Selamat datang di website saya</p>
+    <main class="flex-grow max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
+      <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800">Biodata Diri</h1>
+        <p class="text-lg text-gray-600">M Fari Madyan</p>
       </header>
 
-      <section>
-        <p>
-          Saya membantu orang-orang seperti Anda untuk menjadi lebih baik terutama dalam karier modern,
-          pengembangan web, rekayasa perangkat lunak, bisnis teknologi, dan kehidupan secara
-          umum.
-        </p>
-        <p>Coding untuk bersenang-senang sejak 2012 + Coding profesional sejak 2015</p>
+      <section class="mb-6">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">Data Pribadi</h2>
+        <table class="w-full border-collapse border border-gray-300">
+          <tbody>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 p-3 font-medium"><strong>Nama</strong></td>
+              <td class="border border-gray-300 p-3">M Fari Madyan</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-3 font-medium"><strong>Tempat, Tanggal Lahir</strong></td>
+              <td class="border border-gray-300 p-3">Jakarta, 15 Mei 1992</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 p-3 font-medium"><strong>Jenis Kelamin</strong></td>
+              <td class="border border-gray-300 p-3">Laki-laki</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-3 font-medium"><strong>Alamat</strong></td>
+              <td class="border border-gray-300 p-3">Jl. Merdeka No. 123, Jakarta Pusat</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
-      <section>
-        <ul>
-          <li><a href="https://google.com">Google</a></li>
-          <li><a href="https://facebook.com">Facebook</a></li>
-          <li><a href="https://twitter.com">Twitter</a></li>
+      <section class="mb-6">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">Hobi</h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-600">
+          <li>Coding dan Pemrograman</li>
+          <li>Membaca Buku Teknologi</li>
+          <li>Bermain Game</li>
+          <li>Mendengarkan Musik</li>
         </ul>
       </section>
 
-      <aside>
-        <p>Lihat portofolio saya sekarang!</p>
-      </aside>
+      <section class="mb-6">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">Cita-cita</h2>
+        <p class="text-gray-600 leading-relaxed">Menjadi seorang Software Engineer yang handal dan berkontribusi dalam pengembangan teknologi untuk kemajuan bangsa.</p>
+      </section>
     </main>
 
-    <footer>
-      <p>
-        <span>Hak Cipta &copy; 2025</span>
-        <a href="https://mfarim.com">M Fari Madyan</a>.
-        <span>Seluruh hak dilindungi.</span>
-      </p>
+    <footer class="bg-gray-800 text-white text-center p-4 mt-auto">
+      <p>Hak Cipta &copy; 2025 M Fari Madyan. Seluruh hak dilindungi.</p>
     </footer>
   </body>
 </html>
